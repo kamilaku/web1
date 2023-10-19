@@ -1,5 +1,4 @@
 import React from 'react';
-// import 'Deja_znak_wodny_zloty.png' from './images';
 
 function Header() {
     return (
@@ -16,6 +15,7 @@ function Header() {
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="#" class="nav-link px-2 link-secondary">Główna</a></li>
                 <li><a href="#" class="nav-link px-2 link-body-emphasis">Zabiegi</a></li>
+                <li><a href="#" class="nav-link px-2 link-body-emphasis">Realizacje</a></li>
                 <li><a href="#" class="nav-link px-2 link-body-emphasis">O mnie</a></li>
                 <li><a href="#" class="nav-link px-2 link-body-emphasis">Opinie</a></li>
                 <li><a href="#" class="nav-link px-2 link-body-emphasis">Szkolenia</a></li>
