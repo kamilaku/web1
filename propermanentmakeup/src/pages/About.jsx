@@ -16,21 +16,19 @@ const About = () => {
                 </div>
 
                 <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">Jak wygląda moja praca?</h2>
-                <div class="col-md-7">
-                    <img src="./images/myWork/mojapraca1.jpeg"></img>
-                    <img src="./images/myWork/mojapraca2.jpeg"></img>
-                    <img src="./images/myWork/mojapraca3.jpeg"></img>
-                    <img src="./images/myWork/mojapraca4.jpeg"></img>
-                    <img src="./images/myWork/mojapraca5.jpeg"></img>
-                    <img src="./images/myWork/mojapraca6.jpeg"></img>
-                    <img src="./images/myWork/mojapraca7.jpeg"></img>
-                    <img src="./images/myWork/mojapraca8.jpeg"></img>
-                    <img src="./images/myWork/mojapraca9.jpeg"></img>
+                    <h2 class="featurette-heading fw-normal lh-1">Jak wygląda moja praca?</h2>
+                    <div class="col-md-7">
+                        <img src="./images/myWork/mojapraca1.jpeg"></img>
+                        <img src="./images/myWork/mojapraca2.jpeg"></img>
+                        <img src="./images/myWork/mojapraca3.jpeg"></img>
+                        <img src="./images/myWork/mojapraca4.jpeg"></img>
+                        <img src="./images/myWork/mojapraca5.jpeg"></img>
+                        <img src="./images/myWork/mojapraca6.jpeg"></img>
+                        <img src="./images/myWork/mojapraca7.jpeg"></img>
+                        <img src="./images/myWork/mojapraca8.jpeg"></img>
+                        <img src="./images/myWork/mojapraca9.jpeg"></img>
+                    </div>
                 </div>
-                </div>
-
-
             </div>
         </>
     )
