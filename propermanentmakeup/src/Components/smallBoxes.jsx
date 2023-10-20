@@ -1,6 +1,6 @@
+import React from "react";
 
-
-function SmallBoxes() {
+const SmallBoxes = () => {
     return (
         <div class="row">
             <div class="col-lg-4">

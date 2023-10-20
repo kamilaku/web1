@@ -1,17 +1,22 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.scss';
-import Header from './Components/header.jsx';
-import Footer from './Components/footer.jsx';
-import BigBoxes from './Components/bigBoxes';
-import SmallBoxes from './Components/smallBoxes';
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import NoPage from './pages/NoPage';
+import About from './pages/About';
+
 
 function App() {
   return (
-    <>
-    <Header />
-    <BigBoxes />
-    <SmallBoxes />
-    <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout/>}>
+          <Route index element={<Home/>} />
+          <Route path="about" element={<About/>} />
+          <Route path="*" element={<NoPage/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

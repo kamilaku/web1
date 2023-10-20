@@ -1,6 +1,6 @@
+import React from "react";
 
-
-function BigBoxes() {
+const BigBoxes = () => {
     return (
         <>
         <hr class="featurette-divider"></hr>
