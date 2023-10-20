@@ -4,6 +4,7 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import NoPage from './pages/NoPage';
 import About from './pages/About';
+import References from './pages/References';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>} />
           <Route path="about" element={<About/>} />
+          <Route path="references" element={<References/>} />
           <Route path="*" element={<NoPage/>} />
         </Route>
       </Routes>
