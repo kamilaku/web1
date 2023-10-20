@@ -11,39 +11,36 @@ function Header() {
             </div>
 
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"></svg>
-                </a>
 
                 <nav>
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li>
-                <Link to="/" class="nav-link px-2 link-secondary">Główna</Link>
-            </li>
-            <li>
-                <Link to="/services" class="nav-link px-2 link-secondary">Usługi</Link>
-            </li>
-            <li>
-                <Link to="/portfolio" class="nav-link px-2 link-secondary">Realizacje</Link>
-            </li>
-            <li>
-                <Link to="/about" class="nav-link px-2 link-secondary">O mnie</Link>
-            </li>
-            <li>
-                <Link to="/references" class="nav-link px-2 link-secondary">Opinie</Link>
-            </li>
-            <li>
-                <Link to="/courses" class="nav-link px-2 link-secondary">Szkolenia</Link>
-            </li>
-            <li>
-                <Link to="/contact" class="nav-link px-2 link-secondary">Kontakt</Link>
-            </li>
-        </ul>
-    </nav>
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li>
+                            <Link to="/" class="nav-link px-2 link-secondary">Główna</Link>
+                        </li>
+                        <li>
+                            <Link to="/services" class="nav-link px-2 link-secondary">Usługi</Link>
+                        </li>
+                        <li>
+                            <Link to="/portfolio" class="nav-link px-2 link-secondary">Realizacje</Link>
+                        </li>
+                        <li>
+                            <Link to="/about" class="nav-link px-2 link-secondary">O mnie</Link>
+                        </li>
+                        <li>
+                            <Link to="/references" class="nav-link px-2 link-secondary">Opinie</Link>
+                        </li>
+                        <li>
+                            <Link to="/courses" class="nav-link px-2 link-secondary">Szkolenia</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact" class="nav-link px-2 link-secondary">Kontakt</Link>
+                        </li>
+                    </ul>
+                </nav>
 
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                <input type="search" class="form-control" placeholder="Search..." aria-label="Search"/>
-            </form>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search"/>
+                </form>
 
             </div>
         </div>

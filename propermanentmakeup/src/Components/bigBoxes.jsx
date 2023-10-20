@@ -3,6 +3,7 @@ import React from "react";
 const BigBoxes = () => {
     return (
         <>
+        {/* text on the left */}
         <hr class="featurette-divider"></hr>
         <div class="row featurette">
             <div class="col-md-7">
@@ -16,6 +17,7 @@ const BigBoxes = () => {
 
             </div>
         </div>
+        {/* text on the right */}
         <hr class="featurette-divider"></hr>
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
