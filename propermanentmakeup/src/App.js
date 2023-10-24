@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import NoPage from './pages/NoPage';
 import About from './pages/About';
 import References from './pages/References';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home/>} />
           <Route path="about" element={<About/>} />
           <Route path="references" element={<References/>} />
+          <Route path="contact" element={<Contact/>} />
           <Route path="*" element={<NoPage/>} />
         </Route>
       </Routes>
