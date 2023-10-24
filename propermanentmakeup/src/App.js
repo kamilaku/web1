@@ -11,6 +11,7 @@ import Services from './pages/Services';
 import Brows from './pages/services/Brows';
 import Lips from './pages/services/Lips';
 import Eyelids from './pages/services/Eyelids';
+import MedicalPigmentation from './pages/services/MedicalPigmentation';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="services/brows" element={<Brows/>} />
           <Route path="services/lips" element={<Lips/>} />
           <Route path="services/eyelids" element={<Eyelids/>} />
+          <Route path="services/medicalpigmentation" element={<MedicalPigmentation/>} />
 
           <Route path="references" element={<References/>} />
           <Route path="contact" element={<Contact/>} />

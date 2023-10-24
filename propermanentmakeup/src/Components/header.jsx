@@ -30,6 +30,9 @@ function Header() {
                                 <li>
                                     <Link to="/services/eyelids" className="nav-link px-2 link-secondary">Kreski</Link>
                                 </li>
+                                <li>
+                                    <Link to="/services/medicalpigmentation" className="nav-link px-2 link-secondary">Pigmentacja medyczna</Link>
+                                </li>
                             </ul>
                         </li>
                         <li>
