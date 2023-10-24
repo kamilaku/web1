@@ -7,7 +7,7 @@ function Header() {
     <header className="p-3 mb-3 border-bottom">
         <div className="container">
             <div className="logo">
-                <img src="/images/Deja_znak_wodny_zloty.png" alt="logo" title="logo" width='100%' height='100%'/>
+                <Link to="/" className="nav-link px-2 link-secondary"><img src="/images/Deja_znak_wodny_zloty.png" alt="logo" title="logo" width='100%' height='100%'/></Link>
             </div>
 
             <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
