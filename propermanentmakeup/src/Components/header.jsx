@@ -33,6 +33,9 @@ function Header() {
                                 <li>
                                     <Link to="/services/medicalpigmentation" className="nav-link px-2 link-secondary">Pigmentacja medyczna</Link>
                                 </li>
+                                <li>
+                                    <Link to="/services/cover" className="nav-link px-2 link-secondary">Cover</Link>
+                                </li>
                             </ul>
                         </li>
                         <li>
