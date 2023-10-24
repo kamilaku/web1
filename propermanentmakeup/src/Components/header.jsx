@@ -36,6 +36,9 @@ function Header() {
                                 <li>
                                     <Link to="/services/cover" className="nav-link px-2 link-secondary">Cover</Link>
                                 </li>
+                                <li>
+                                    <Link to="/services/removal" className="nav-link px-2 link-secondary">Usuwanie makijżu permanentnego i tatuaży</Link>
+                                </li>
                             </ul>
                         </li>
                         <li>
