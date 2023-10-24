@@ -27,6 +27,9 @@ function Header() {
                                 <li>
                                     <Link to="/services/lips" className="nav-link px-2 link-secondary">Usta</Link>
                                 </li>
+                                <li>
+                                    <Link to="/services/eyelids" className="nav-link px-2 link-secondary">Kreski</Link>
+                                </li>
                             </ul>
                         </li>
                         <li>
