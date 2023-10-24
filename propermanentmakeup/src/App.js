@@ -7,15 +7,20 @@ import About from './pages/About';
 import References from './pages/References';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import Services from './pages/Services';
+import Brows from './pages/services/Brows';
 
-
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>} />
           <Route path="about" element={<About/>} />
+
+          <Route path="services" element={<Services/>} />
+          <Route path="services/brows" element={<Brows/>} />
+
           <Route path="references" element={<References/>} />
           <Route path="contact" element={<Contact/>} />
           <Route path="portfolio" element={<Portfolio/>} />
@@ -24,6 +29,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
