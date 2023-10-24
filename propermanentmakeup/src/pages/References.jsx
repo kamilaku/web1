@@ -3,9 +3,9 @@ import React from "react";
 const References = () => {
     return (
         <>
-            <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">To tylko niektóre z opinii:</h2>
-                <div class="col-md-7">
+            <div className="col-md-7">
+                <h2 className="featurette-heading fw-normal lh-1">To tylko niektóre z opinii:</h2>
+                <div className="col-md-7">
                     <img src="./images/references/references1.jpeg"></img>
                     <img src="./images/references/references2.jpeg"></img>
                     <img src="./images/references/references3.jpeg"></img>
