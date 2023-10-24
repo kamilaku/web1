@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Services from './pages/Services';
 import Brows from './pages/services/Brows';
+import Lips from './pages/services/Lips';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
 
           <Route path="services" element={<Services/>} />
           <Route path="services/brows" element={<Brows/>} />
+          <Route path="services/lips" element={<Lips/>} />
 
           <Route path="references" element={<References/>} />
           <Route path="contact" element={<Contact/>} />
