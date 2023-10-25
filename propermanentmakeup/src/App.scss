@@ -1,3 +1,26 @@
+$font-color: #a27839;
+$font-color2: #f6e6bb;
+$font-color3: #d8b066;
+$body-bg: #000;
+$headings-color: $font-color;
+$hr-color: $font-color2;
+
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+// body {
+//   margin: 0;
+//   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+//     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+//     sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
 
 .featurette-divider {
   margin: 5rem 0;
@@ -5,4 +28,16 @@
   
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.text-body-secondary {
+  color: $font-color3 !important;
+}
+
+p {
+  color: $font-color2;
+}
+
+.nav-link {
+  color: $font-color !important;
 }

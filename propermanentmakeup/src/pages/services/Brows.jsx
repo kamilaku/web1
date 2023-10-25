@@ -6,7 +6,7 @@ const Brows = () => {
         <div className="row featurette">
             <div className="col-md-7">
                 <h2 className="featurette-heading fw-normal lh-1">Brwi 
-                <br/><span className="text-body-secondary">Najbardziej wyróniający się element twarzy</span></h2>
+                <br/><span className="text-body-secondary">Najbardziej wyróżniający się element twarzy</span></h2>
                 <p className="lead">Mówi się, że oczy są zwierciadłem duszy, w takim razie brwi są ramą zwierciadła 🪞 <br/>
                 ▪️ nadają charakter<br/>
                 ▪️ podkreślają oczy <br/>
