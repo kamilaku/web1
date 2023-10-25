@@ -1,9 +1,9 @@
-$font-color: #a27839;
-$font-color2: #f6e6bb;
-$font-color3: #d8b066;
+$gold1: #f6e6bb;
+$gold2: #d8b066;
+$gold3: #a27839;
 $body-bg: #000;
-$headings-color: $font-color;
-$hr-color: $font-color2;
+$headings-color: $gold3;
+$hr-color: $gold1;
 
 
 @import '~bootstrap/scss/bootstrap.scss';
@@ -31,13 +31,13 @@ $hr-color: $font-color2;
 }
 
 .text-body-secondary {
-  color: $font-color3 !important;
+  color: $gold2 !important;
 }
 
 p {
-  color: $font-color2;
+  color: $gold1;
 }
 
 .nav-link {
-  color: $font-color !important;
+  color: $gold3 !important;
 }
