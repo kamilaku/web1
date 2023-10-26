@@ -22,7 +22,7 @@ const Portfolio = () => {
 
                 <div className="row">
                     <div className="col-md-7">
-                        { pictures.map(({ src, alt, title }, index) => <img src={src} alt={alt} title={title} key={index} />)}
+                        { pictures.map(({ src, alt, title }, index) => <img src={src} alt={alt} title={title} key={index} className="img-thumbnail object-fit-cover" />)}
                     </div>
                 </div>
             </div>

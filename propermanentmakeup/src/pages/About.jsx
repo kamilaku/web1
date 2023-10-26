@@ -21,16 +21,16 @@ const About = () => {
                 <div className="col-md-7">
                     <h2 className="featurette-heading fw-normal lh-1">Jak wygląda moja praca?</h2>
 
-                    <div className="col-md-7">
-                        <img src="./images/myWork/mojapraca1.jpeg"></img>
-                        <img src="./images/myWork/mojapraca2.jpeg"></img>
-                        <img src="./images/myWork/mojapraca3.jpeg"></img>
-                        <img src="./images/myWork/mojapraca4.jpeg"></img>
-                        <img src="./images/myWork/mojapraca5.jpeg"></img>
-                        <img src="./images/myWork/mojapraca6.jpeg"></img>
-                        <img src="./images/myWork/mojapraca7.jpeg"></img>
-                        <img src="./images/myWork/mojapraca8.jpeg"></img>
-                        <img src="./images/myWork/mojapraca9.jpeg"></img>
+                    <div className="col-md-7 d-flex flex-wrap">
+                        <img src="./images/myWork/mojapraca1.jpeg" className="img-thumbnail object-fit-cover"></img>
+                        <img src="./images/myWork/mojapraca2.jpeg" className="img-thumbnail object-fit-cover"></img>
+                        <img src="./images/myWork/mojapraca3.jpeg" className="img-thumbnail object-fit-cover"></img>
+                        <img src="./images/myWork/mojapraca4.jpeg" className="img-thumbnail object-fit-cover"></img>
+                        <img src="./images/myWork/mojapraca5.jpeg" className="img-thumbnail object-fit-cover"></img>
+                        <img src="./images/myWork/mojapraca6.jpeg" className="img-thumbnail object-fit-cover"></img>
+                        <img src="./images/myWork/mojapraca7.jpeg" className="img-thumbnail object-fit-cover"></img>
+                        <img src="./images/myWork/mojapraca8.jpeg" className="img-thumbnail object-fit-cover"></img>
+                        <img src="./images/myWork/mojapraca9.jpeg" className="img-thumbnail object-fit-cover"></img>
                     </div>
                 </div>
             </div>
