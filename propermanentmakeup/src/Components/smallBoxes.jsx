@@ -6,7 +6,7 @@ const SmallBoxes = () => {
         <div className="row">
 
             <div className="col-xs-12 col-sm-6 col-md-4 d-flex flex-column">
-                <Link to="/services/eyelids" className="nav-link  d-flex justify-content-center px-2 link-secondary" ><img src='/images/kreski.jpeg' className="bd-placeholder-img rounded" width="140" height="140" /></Link>
+                <Link to="/services/eyelids" className="nav-link  d-flex justify-content-center px-2 link-secondary" ><img src='/images/kreski.jpeg' className="bd-placeholder-img rounded object-fit-cover" width="140" height="140" /></Link>
 
                 <h2 className="fw-normal d-flex justify-content-center">Kreski</h2>
                 <p>Tę pigmentację pokochała nawet Kleopatra. To klasyczne, ponadczasowe podkreślenie oka.</p>
@@ -14,14 +14,14 @@ const SmallBoxes = () => {
             </div>
 
             <div className="col-xs-12 col-sm-6 col-md-4 d-flex flex-column">
-                <Link to="/services/lips" className="nav-link  d-flex justify-content-center px-2 link-secondary" ><img src='/images/usta.jpeg' className="bd-placeholder-img rounded" width="140" height="140" /></Link>
+                <Link to="/services/lips" className="nav-link  d-flex justify-content-center px-2 link-secondary" ><img src='/images/usta.jpeg' className="bd-placeholder-img rounded object-fit-cover" width="140" height="140" /></Link>
                 <h2 className="fw-normal d-flex justify-content-center">Usta</h2>
                 <p>Ustami wyrażamy słowa, uczucia, emocje. Pełne, odpowiednio podkreślone, postrzegane są jako piękne i zmysłowe.</p>
                 <p className="mt-auto"><a className="btn btn-outline-secondary d-flex justify-content-center" href="/services/lips">Pokaż »</a></p>
             </div>
 
             <div className="col-xs-12 col-sm-6 col-md-4 d-flex flex-column">
-                <Link to="/services/brows" className="nav-link  d-flex justify-content-center px-2 link-secondary" ><img src='/images/brwi.jpeg' className="bd-placeholder-img rounded" width="140" height="140" /></Link>
+                <Link to="/services/brows" className="nav-link  d-flex justify-content-center px-2 link-secondary" ><img src='/images/brwi.jpeg' className="bd-placeholder-img rounded object-fit-cover" width="140" height="140" /></Link>
 
                 <h2 className="fw-normal d-flex justify-content-center">Brwi</h2>
 

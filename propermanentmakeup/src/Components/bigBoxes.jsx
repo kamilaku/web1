@@ -14,7 +14,7 @@ const BigBoxes = () => {
             </div>
 
             <div className="col-md-5">
-                <img src="./images/image1.jpeg" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" title="Makijaż permanentny" alt="Makijaż permanentny" />
+                <img src="./images/image1.jpeg" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" title="Makijaż permanentny" alt="Makijaż permanentny" />
 
             </div>
         </div>
@@ -31,7 +31,7 @@ const BigBoxes = () => {
             </div>
     
             <div className="col-md-5 order-md-1">
-                <img src="./images/image2.jpeg" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" title="Makijaż permanentny" alt="Makijaż permanentny" />
+                <img src="./images/image2.jpeg" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" title="Magdalena Deja" alt="Magdalena Deja" />
             </div>
         </div>
 
