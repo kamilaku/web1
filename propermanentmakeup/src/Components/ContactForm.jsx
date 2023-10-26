@@ -1,12 +1,12 @@
 import React from "react";
 
 const ContactForm = () => {
-    return (
-        <>
+    return (<>
         <div className="mb-3">
             <label htmlFor="exampleFormControlInput1" className="form-label">Email</label>
             <input type="email" className="form-control" id="formControlInput1" placeholder="podaj email"/>
         </div>
+
         <div className="mb-3">
             <label htmlFor="exampleFormControlTextarea1" className="form-label">Wiadomość</label>
             <textarea className="form-control" id="formControlTextarea1" rows="3"></textarea>
@@ -18,8 +18,7 @@ const ContactForm = () => {
             </button>
         </div>
         
-        </>
-    );
+    </>);
 };
 
 export default ContactForm;

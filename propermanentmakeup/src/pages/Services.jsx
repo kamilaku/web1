@@ -8,13 +8,14 @@ import MedicalPigmentation from "./services/MedicalPigmentation";
 const Services = () => {
     return(
         <>
-        <Brows />
-        <Eyelids />
-        <Lips />
-        <Cover />
-        <Removal />
-        <MedicalPigmentation />
-        </>)
+            <Brows />
+            <Eyelids />
+            <Lips />
+            <Cover />
+            <Removal />
+            <MedicalPigmentation />
+        </>
+    );
 };
 
 export default Services;

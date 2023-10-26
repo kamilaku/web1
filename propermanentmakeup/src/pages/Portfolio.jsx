@@ -16,15 +16,17 @@ const Portfolio = () => {
     ];
 
     return (
-        <>
-        <div className="col-md-7">
-            <h2 className="featurette-heading fw-normal lh-1">Moje realizacje:</h2>
-
+        <div className="row">
             <div className="col-md-7">
-                { pictures.map(({ src, alt, title }, index) => <img src={src} alt={alt} title={title} key={index} />)}
+                <h2 className="featurette-heading fw-normal lh-1">Moje realizacje:</h2>
+
+                <div className="row">
+                    <div className="col-md-7">
+                        { pictures.map(({ src, alt, title }, index) => <img src={src} alt={alt} title={title} key={index} />)}
+                    </div>
+                </div>
             </div>
         </div>
-        </>
     );
 }
 
