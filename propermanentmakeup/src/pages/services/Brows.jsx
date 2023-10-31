@@ -1,26 +1,34 @@
 import React from "react";
+import Box from "../../Components/Box";
+
+const detal = () => {
+    return (<>
+        <p className="lead">Mówi się, że oczy są zwierciadłem duszy, w takim razie brwi są ramą zwierciadła 🪞</p>
+            <ul>
+                <li>nadają charakter</li>
+                <li>podkreślają oczy</li>
+                <li>akcentują ekspresję</li>
+                <li>mają decydujące znaczenie w wyznaczaniu symetrii twarzy</li>
+            </ul>
+        <h5 className="text-body-secondary">"Detal ma znaczenie"</h5>
+    </>);
+};
 
 const Brows = () => {
     return(
         <>
-        {/* text on the left */}
-        <div className="row featurette">
-            <div className="col-md-7">
-                <h2 className="featurette-heading fw-normal lh-1">Brwi</h2>
-                <h3 className="text-body-secondary">Najbardziej wyróżniający się element twarzy</h3>
-                <p className="lead">Mówi się, że oczy są zwierciadłem duszy, w takim razie brwi są ramą zwierciadła 🪞 <br/>
-                ▪️ nadają charakter<br/>
-                ▪️ podkreślają oczy <br/>
-                ▪️ akcentują ekspresję<br/>
-                ▪️ mają decydujące znaczenie w wyznaczaniu symetrii twarzy</p>
-                <h5 className="text-body-secondary">"Detal ma znaczenie"</h5>
-            </div>
-            <div className="col-md-5">
-                <img src="/images/portfolio/portfolio8.jpeg" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" title="Makijaż permanentny brwi" alt="Makijaż permanentny brwi" />
-
-            </div>
-        </div>
-        </>)
+        <Box 
+            imgOnLeft={false} 
+            h2={"Brwi"} 
+            h3={"Najbardziej wyróżniający się element twarzy"}
+            p={""}
+            imgSrc={"/images/portfolio/portfolio8.jpeg"}
+            imgClass={""}
+            imgTitle={"Makijaż permanentny brwi"}
+            imgAlt={"Makijaż permanentny brwi"}
+            children={detal}
+        />
+    </>)
 };
 
 export default Brows;
