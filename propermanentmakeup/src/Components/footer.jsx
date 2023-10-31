@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="row py-3 my-4">
-
+        <footer className="row py-4">
             <hr className="featurette-divider my-5"></hr>
             <div className="col d-flex align-items-center justify-content-center">
                 <span className="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (<>
-        <header className="row">
+        <header className="row py-2">
             <div className="logo col-xs-12">
                 <Link to="/" className="nav-link  d-flex justify-content-center px-2 link-secondary" ><img src="/images/Deja_znak_wodny_zloty.png" alt="logo" title="logo" width='70%'/></Link>
             </div>
