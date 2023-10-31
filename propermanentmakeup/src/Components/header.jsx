@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 
 const Header = () => {
-    return (
-        <header className="p-3 mb-3 row">
+    return (<>
+        <header className="row">
             <div className="logo col-xs-12">
                 <Link to="/" className="nav-link  d-flex justify-content-center px-2 link-secondary" ><img src="/images/Deja_znak_wodny_zloty.png" alt="logo" title="logo" width='70%'/></Link>
             </div>
@@ -56,14 +56,10 @@ const Header = () => {
                         </li>
                     </ul>
                 </nav>
-
-                {/* <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                    <input type="search" className="form-control" placeholder="Search..." aria-label="Search"/>
-                </form> */}
-
             </div>
         </header>
-    );
+        <hr className="featurette-divider mt-0"/>
+    </>);
 };
 
 export default Header;

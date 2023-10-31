@@ -4,7 +4,6 @@ const Lips = () => {
     return(
         <>
         {/* text on the left */}
-        <hr className="featurette-divider"></hr>
         <div className="row featurette">
             <div className="col-md-7">
                 <h2 className="featurette-heading fw-normal lh-1">Usta</h2>
@@ -29,7 +28,6 @@ const Lips = () => {
 
             </div>
         </div>
-        <hr className="featurette-divider"></hr>
         </>)
 };
 

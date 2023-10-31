@@ -9,10 +9,15 @@ const Services = () => {
     return(
         <>
             <Brows />
+            <hr className="featurette-divider p-2"/>
             <Eyelids />
+            <hr className="featurette-divider p-0"/>
             <Lips />
+            <hr className="featurette-divider p-0"/>
             <Cover />
+            <hr className="featurette-divider p-0"/>
             <Removal />
+            <hr className="featurette-divider p-0"/>
             <MedicalPigmentation />
         </>
     );

@@ -3,8 +3,6 @@ import React from "react";
 const About = () => {
     return (
         <>
-            <hr className="featurette-divider"></hr>
-
             <div className="row featurette">
                 <div className="col-md-7">
                     <h2 className="featurette-heading fw-normal lh-1">Magdalena Deja</h2>

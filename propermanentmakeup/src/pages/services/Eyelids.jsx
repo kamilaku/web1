@@ -4,7 +4,6 @@ const Eyelids = () => {
     return(
         <>
         {/* text on the left */}
-        <hr className="featurette-divider"></hr>
         <div className="row featurette">
             <div className="col-md-7">
                 <h2 className="featurette-heading fw-normal lh-1">Kreski</h2>
@@ -19,7 +18,6 @@ const Eyelids = () => {
                 <img src="/images/portfolio/portfolio7.jpeg" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" title="Makijaż permanentny brwi" alt="Makijaż permanentny brwi" />
             </div>
         </div>
-        <hr className="featurette-divider"></hr>
         </>)
 };
 
