@@ -1,3 +1,5 @@
+import React from "react";
+
 const Eyelids = () => {
     return(
         <>
@@ -5,11 +7,11 @@ const Eyelids = () => {
         <hr className="featurette-divider"></hr>
         <div className="row featurette">
             <div className="col-md-7">
-                <h2 className="featurette-heading fw-normal lh-1">Kreski 
-                <br/><span className="text-body-secondary">Te pigmentację pokochała nawet Kleopatra.
-                </span></h2>
-                <p className="lead">To klasyczne, ponadczasowe podkreślenie oka. <br/>
-                Masz opadająca powiekę? <br/><br/>
+                <h2 className="featurette-heading fw-normal lh-1">Kreski</h2>
+                <h3 className="text-body-secondary">Te pigmentację pokochała nawet Kleopatra.
+                </h3>
+                <p className="lead">To klasyczne, ponadczasowe podkreślenie oka.</p>
+                <p className="lead">Masz opadająca powiekę?
                 Delikatna rozcieniowana kreska sprawdzi się doskonale. Moja autorska technika "Kosmiczny Pyłek" dzięki swojej delikatności wygląda dobrze na każdym oku.
                 </p>
             </div>

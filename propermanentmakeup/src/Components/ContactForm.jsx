@@ -8,14 +8,12 @@ const ContactForm = () => {
         </div>
 
         <div className="mb-3">
-            <label htmlFor="exampleFormControlTextarea1" className="form-label">Wiadomość</label>
-            <textarea className="form-control" id="formControlTextarea1" rows="3"></textarea>
+            <label htmlFor="exampleFormControlTextarea" className="form-label">Wiadomość</label>
+            <textarea className="form-control" id="formControlTextarea" rows="4"></textarea>
             </div>
             
         <div className='mb3'>
-            <button className="btn btn-outline-secondary d-inline-flex align-items-center" type="button">Wyślij
-                <svg className="bi ms-1" width="20" height="20"></svg>
-            </button>
+            <button className="btn btn-outline-secondary text-center w-100" type="button">Wyślij »</button>
         </div>
         
     </>);
