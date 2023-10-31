@@ -13,46 +13,46 @@ const Header = () => {
                 <nav>
                     <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                         <li>
-                            <Link to="/" className="nav-link px-2 link-secondary">Główna</Link>
+                            <Link to="/" className="nav-link px-2 link-secondary"><h5>Główna</h5></Link>
                         </li>
                         <li className='dropdown'>
-                            <Link to="/services" className="nav-link px-2 link-secondary">Usługi</Link>
+                            <Link to="/services" className="nav-link px-2 link-secondary"><h5>Usługi</h5></Link>
 
                             <ul className="dropdown-menu">
                                 <li>
-                                    <Link to="/services/brows" className="nav-link px-2 link-secondary">Brwi</Link>
+                                    <Link to="/services/brows" className="nav-link px-2 link-secondary"><h5>Brwi</h5></Link>
                                 </li>
                                 <li>
-                                    <Link to="/services/lips" className="nav-link px-2 link-secondary">Usta</Link>
+                                    <Link to="/services/lips" className="nav-link px-2 link-secondary"><h5>Usta</h5></Link>
                                 </li>
                                 <li>
-                                    <Link to="/services/eyelids" className="nav-link px-2 link-secondary">Kreski</Link>
+                                    <Link to="/services/eyelids" className="nav-link px-2 link-secondary"><h5>Kreski</h5></Link>
                                 </li>
                                 <li>
-                                    <Link to="/services/medicalpigmentation" className="nav-link px-2 link-secondary">Pigmentacja medyczna</Link>
+                                    <Link to="/services/medicalpigmentation" className="nav-link px-2 link-secondary"><h5>Pigmentacja medyczna</h5></Link>
                                 </li>
                                 <li>
-                                    <Link to="/services/cover" className="nav-link px-2 link-secondary">Cover</Link>
+                                    <Link to="/services/cover" className="nav-link px-2 link-secondary"><h5>Cover</h5></Link>
                                 </li>
                                 <li>
-                                    <Link to="/services/removal" className="nav-link px-2 link-secondary">Usuwanie makijżu permanentnego i tatuaży</Link>
+                                    <Link to="/services/removal" className="nav-link px-2 link-secondary"><h5>Usuwanie makijżu permanentnego i tatuaży</h5></Link>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <Link to="/portfolio" className="nav-link px-2 link-secondary">Realizacje</Link>
+                            <Link to="/portfolio" className="nav-link px-2 link-secondary"><h5>Realizacje</h5></Link>
                         </li>
                         <li>
-                            <Link to="/about" className="nav-link px-2 link-secondary">O mnie</Link>
+                            <Link to="/about" className="nav-link px-2 link-secondary"><h5>O mnie</h5></Link>
                         </li>
                         <li>
-                            <Link to="/references" className="nav-link px-2 link-secondary">Opinie</Link>
+                            <Link to="/references" className="nav-link px-2 link-secondary"><h5>Opinie</h5></Link>
                         </li>
                         <li>
-                            <Link to="/courses" className="nav-link px-2 link-secondary">Szkolenia</Link>
+                            <Link to="/courses" className="nav-link px-2 link-secondary"><h5>Szkolenia</h5></Link>
                         </li>
                         <li>
-                            <Link to="/contact" className="nav-link px-2 link-secondary">Kontakt</Link>
+                            <Link to="/contact" className="nav-link px-2 link-secondary"><h5>Kontakt</h5></Link>
                         </li>
                     </ul>
                 </nav>
