@@ -40,12 +40,32 @@ p {
   color: $gold3 !important;
 }
 
-.imgInBoxes {
+// .nav-link:hover, .nav-link:active {
+//   color: black;
+//   background-color: $otherText;
+// }
+
+.img-shadow {
   box-shadow: 9px -10px 28px -7px rgba(162,120,57,0.76);
   -webkit-box-shadow: 9px -10px 28px -7px rgba(162,120,57,0.76);
   -moz-box-shadow: 9px -10px 28px -7px rgba(162,120,57,0.76);
   width: 100%;
   height: auto;
+}
+
+.img-dotted {
+  outline: 6px dotted $gold3;
+  outline-offset: 8px;
+}
+
+.img-groove {
+  outline: 6px groove $gold3;
+  outline-offset: 8px;
+}
+
+.img-double {
+  outline: 6px double $gold3;
+  outline-offset: 8px;
 }
 
 h1, h2, h3, h4, h5, h6 {

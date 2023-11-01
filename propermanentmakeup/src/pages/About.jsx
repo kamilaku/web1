@@ -67,7 +67,7 @@ const About = () => {
                     h3={"Linergistka z wieloletnim doświadczeniem"}
                     p={""}
                     imgSrc={"./images/aboutMe.jpeg"}
-                    imgClass={"imgInBoxes"}
+                    imgClass={"img-double"}
                     imgTitle={"Magdalena Deja"}
                     imgAlt={"Magdalena Deja"}
                     children={detal}
