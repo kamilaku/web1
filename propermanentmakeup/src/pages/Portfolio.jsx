@@ -19,7 +19,7 @@ const Portfolio = () => {
         <div className="row">
             <div className="col d-flex flex-wrap">
                 <h2 className="featurette-heading fw-normal lh-1">Moje realizacje:</h2>
-                <div className="row">
+                <div className="row w-100 h-auto">
                     <ImageGallery items={pictures} showBullets={true} lazyLoad={true} className="h-50 w-auto d-inline-block"/>;
                 </div>
             </div>

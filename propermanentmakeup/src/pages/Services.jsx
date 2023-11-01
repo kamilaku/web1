@@ -9,7 +9,7 @@ const Services = () => {
     return(
         <>
             <Brows />
-            <hr className="featurette-divider p-2"/>
+            <hr className="featurette-divider p-0"/>
             <Eyelids />
             <hr className="featurette-divider p-0"/>
             <Lips />
