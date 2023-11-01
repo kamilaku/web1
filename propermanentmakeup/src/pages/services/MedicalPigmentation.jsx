@@ -1,21 +1,20 @@
 import React from "react";
+import Box from "../../Components/Box";
 
 const MedicalPigmentation = () => {
     return(
         <>
-        {/* text on the left */}
-        <div className="row featurette">
-            <div className="col-md-7">
-                <h2 className="featurette-heading fw-normal lh-1">Pigmentacja medyczna</h2>
-                <h3 className="text-body-secondary">strona w budowie</h3>
-                <p className="lead">strona w budowie</p>
-            </div>
-            <div className="col-md-5">
-                <img src="/images/portfolio/portfolio2.jpeg" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" title="Makijaż permanentny brwi" alt="Makijaż permanentny brwi" />
-
-            </div>
-        </div>
-        </>)
+        <Box 
+            imgOnLeft={false} 
+            h2={"Pigmentacja medyczna"} 
+            h3={"strona w budowie"}
+            p={""}
+            imgSrc={"/images/portfolio/portfolio2.jpeg"}
+            imgClass={""}
+            imgTitle={"Pigmentacja medyczna"}
+            imgAlt={"Pigmentacja medyczna"}
+        />
+    </>)
 };
 
 export default MedicalPigmentation;
