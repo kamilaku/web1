@@ -1,5 +1,6 @@
 import React from "react";
 import Box from "../Components/Box";
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
 const detal = () => {
     return (<>
@@ -7,6 +8,18 @@ const detal = () => {
         <h5 className="text-body-secondary">"Zadzwoń, napisz, zapytaj - chętnie odpowiem na wszystkie pytania, makijaż permanentny nie ma przede mną tajemnic."</h5>
     </>);
 };
+
+const images = [
+    "./images/myWork/mojapraca1.jpeg",
+    "./images/myWork/mojapraca2.jpeg",
+    "./images/myWork/mojapraca3.jpeg",
+    "./images/myWork/mojapraca4.jpeg",
+    "./images/myWork/mojapraca5.jpeg",
+    "./images/myWork/mojapraca6.jpeg",
+    "./images/myWork/mojapraca7.jpeg",
+    "./images/myWork/mojapraca8.jpeg",
+    "./images/myWork/mojapraca9.jpeg"
+];
 
 
 const About = () => {
@@ -25,19 +38,22 @@ const About = () => {
                     children={detal}
                 />
 
-                <div className="col-md-7">
-                    <h2 className="featurette-heading fw-normal lh-1 pt-4">Jak wygląda moja praca?</h2>
+                <div className="col">
+                    <h1 className="featurette-heading fw-normal lh-1 my-5 text-center">Jak wygląda moja praca?</h1>
 
-                    <div className="col-md-7 d-flex flex-wrap">
-                        <img src="./images/myWork/mojapraca1.jpeg" className="img-thumbnail object-fit-cover" alt="1234"></img>
-                        <img src="./images/myWork/mojapraca2.jpeg" className="img-thumbnail object-fit-cover" alt="1234"></img>
-                        <img src="./images/myWork/mojapraca3.jpeg" className="img-thumbnail object-fit-cover" alt="1234"></img>
-                        <img src="./images/myWork/mojapraca4.jpeg" className="img-thumbnail object-fit-cover" alt="1234"></img>
-                        <img src="./images/myWork/mojapraca5.jpeg" className="img-thumbnail object-fit-cover" alt="1234"></img>
-                        <img src="./images/myWork/mojapraca6.jpeg" className="img-thumbnail object-fit-cover" alt="1234"></img>
-                        <img src="./images/myWork/mojapraca7.jpeg" className="img-thumbnail object-fit-cover" alt="1234"></img>
-                        <img src="./images/myWork/mojapraca8.jpeg" className="img-thumbnail object-fit-cover" alt="1234"></img>
-                        <img src="./images/myWork/mojapraca9.jpeg" className="img-thumbnail object-fit-cover" alt="1234"></img>
+                    <div className="col">
+                        <ResponsiveMasonry columnsCountBreakPoints={{300: 1, 700: 2, 1000: 3}}>
+                            <Masonry columnsCount={3} gutter="20px">
+                                {images.map((image, i) => (
+                                    <img
+                                        key={i}
+                                        src={image}
+                                        style={{width: "100%", display: "block"}}
+                                        alt=""
+                                    />
+                                ))};
+                            </Masonry>
+                        </ResponsiveMasonry>
                     </div>
                 </div>
             </div>
