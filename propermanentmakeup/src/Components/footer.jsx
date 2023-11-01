@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
 
             <div className="logo col">
-                <Link to="/" className="nav-link px-2 d-flex justify-content-center link-secondary"><img src="/images/Deja_znak_wodny_zloty-logo.png" alt="logo" title="logo" width='50' height='50'/></Link>
+                <Link to="/" className="nav-link px-2 d-flex justify-content-center link-secondary"><img src="/images/Deja_znak_wodny_zloty-logo.png" alt="logo" title="logo" width='50' /></Link>
             </div>
 
             <div className='d-flex justify-content-center col'>

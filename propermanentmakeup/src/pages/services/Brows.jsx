@@ -23,7 +23,7 @@ const Brows = () => {
             h3={"Najbardziej wyróżniający się element twarzy"}
             p={""}
             imgSrc={"/images/portfolio/portfolio8.jpeg"}
-            imgClass={""}
+            imgClass={"imgInBoxes"}
             imgTitle={"Makijaż permanentny brwi"}
             imgAlt={"Makijaż permanentny brwi"}
             children={detal}

@@ -10,17 +10,52 @@ const detal = () => {
 };
 
 const images = [
-    "./images/myWork/mojapraca1.jpeg",
-    "./images/myWork/mojapraca2.jpeg",
-    "./images/myWork/mojapraca3.jpeg",
-    "./images/myWork/mojapraca4.jpeg",
-    "./images/myWork/mojapraca5.jpeg",
-    "./images/myWork/mojapraca6.jpeg",
-    "./images/myWork/mojapraca7.jpeg",
-    "./images/myWork/mojapraca8.jpeg",
-    "./images/myWork/mojapraca9.jpeg"
+    {
+        src: "./images/myWork/mojapraca1.jpeg",
+        alt: "Moja praca - usta permanentne",
+        title: "Moja praca - usta permanentne",
+    },
+    {
+        src: "./images/myWork/mojapraca2.jpeg",
+        alt: "Moja praca - szkolenia",
+        title: "Moja praca - szkolenia",
+    },
+    {
+        src: "./images/myWork/mojapraca3.jpeg",
+        alt: "Moja praca - brwi permanentne",
+        title: "Moja praca - brwi permanentne",
+    },
+    {
+        src: "./images/myWork/mojapraca4.jpeg",
+        alt: "Moja praca - certyfikat",
+        title: "Moja praca - certyfikat",
+    },
+    {
+        src: "./images/myWork/mojapraca5.jpeg",
+        alt: "Moja praca - brwi permanentne",
+        title: "Moja praca - brwi permanentne",
+    },
+    {
+        src: "./images/myWork/mojapraca6.jpeg",
+        alt: "Moja praca - certyfikat",
+        title: "Moja praca - certyfikat",
+    },
+    {
+        src: "./images/myWork/mojapraca7.jpeg",
+        alt: "Moja praca - Ambasador Serca",
+        title: "Moja praca - Ambasador Serca",
+    },
+    {
+        src: "./images/myWork/mojapraca8.jpeg",
+        alt: "Moja praca - brwi permanentne",
+        title: "Moja praca - brwi permanentne",
+    },
+    {
+        src: "./images/myWork/mojapraca9.jpeg",
+        alt: "Moja praca - podziękowanie",
+        title: "Moja praca - podziękowanie",
+    },
 ];
-
 
 const About = () => {
     return (
@@ -32,7 +67,7 @@ const About = () => {
                     h3={"Linergistka z wieloletnim doświadczeniem"}
                     p={""}
                     imgSrc={"./images/aboutMe.jpeg"}
-                    imgClass={""}
+                    imgClass={"imgInBoxes"}
                     imgTitle={"Magdalena Deja"}
                     imgAlt={"Magdalena Deja"}
                     children={detal}
@@ -44,12 +79,13 @@ const About = () => {
                     <div className="col">
                         <ResponsiveMasonry columnsCountBreakPoints={{300: 1, 700: 2, 1000: 3}}>
                             <Masonry columnsCount={3} gutter="20px">
-                                {images.map((image, i) => (
+                                {images.map(({ src, alt, title }, i) => (
                                     <img
                                         key={i}
-                                        src={image}
+                                        src={src}
                                         style={{width: "100%", display: "block"}}
-                                        alt=""
+                                        alt={alt}
+                                        title={title}
                                     />
                                 ))};
                             </Masonry>

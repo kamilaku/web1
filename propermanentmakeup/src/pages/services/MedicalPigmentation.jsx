@@ -10,7 +10,7 @@ const MedicalPigmentation = () => {
             h3={"strona w budowie"}
             p={""}
             imgSrc={"/images/portfolio/portfolio2.jpeg"}
-            imgClass={""}
+            imgClass={"imgInBoxes"}
             imgTitle={"Pigmentacja medyczna"}
             imgAlt={"Pigmentacja medyczna"}
         />

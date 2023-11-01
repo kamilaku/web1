@@ -12,10 +12,9 @@ const ContactForm = () => {
             <textarea className="form-control" id="formControlTextarea" rows="4"></textarea>
             </div>
             
-        <div className='mb3'>
+        <div className='mb-3'>
             <button className="btn btn-outline-secondary text-center w-100" type="button">Wyślij »</button>
         </div>
-        
     </>);
 };
 
