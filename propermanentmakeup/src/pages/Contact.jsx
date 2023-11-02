@@ -11,7 +11,7 @@ const Contact = () => {
                 <p className="text-body-secondary">Adres: 58-500 Jelenia Góra</p>
             </div>
 
-            <div className="col-md-5">
+            <div className="col-md-5 img-dotted">
                 <ContactForm />
             </div>
         </div>

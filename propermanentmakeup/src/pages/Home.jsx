@@ -1,5 +1,5 @@
 import React from 'react';
-import SmallBoxes from '../Components/smallBoxes';
+import SmallBoxes from '../Components/SmallBoxes';
 import Box from '../Components/Box';
 
 const Home = () => {

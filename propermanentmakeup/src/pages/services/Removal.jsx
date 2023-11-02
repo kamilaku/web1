@@ -10,7 +10,7 @@ const Removal = () => {
             h3={"strona w budowie"}
             p={""}
             imgSrc={"/images/portfolio/portfolio2.jpeg"}
-            imgClass={"imgInBoxes"}
+            imgClass={"img-shadow"}
             imgTitle={"Usuwanie makijażu"}
             imgAlt={"Usuwanie makijażu"}
         />

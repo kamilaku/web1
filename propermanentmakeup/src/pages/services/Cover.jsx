@@ -10,7 +10,7 @@ const Cover = () => {
             h3={"strona w budowie"}
             p={""}
             imgSrc={"/images/portfolio/portfolio2.jpeg"}
-            imgClass={"imgInBoxes"}
+            imgClass={"img-shadow"}
             imgTitle={"Cover"}
             imgAlt={"Cover"}
         />

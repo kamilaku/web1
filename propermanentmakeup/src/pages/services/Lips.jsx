@@ -26,7 +26,7 @@ const Lips = () => {
             h3={"Symbol kobiecości"}
             p={"Ustami wyrażamy słowa, uczucia, emocje. Pełne, odpowiednio podkreślone, postrzegane są jako piękne i zmysłowe.  Makijaż permanentny podkreśla naturalne piękno, a w efekcie możemy cieszyć się naturalnie wyglądającym makijażem permanentnym, który nigdy się nie rozmazuje."}
             imgSrc={"/images/portfolio/portfolio2.jpeg"}
-            imgClass={"imgInBoxes"}
+            imgClass={"img-shadow"}
             imgTitle={"Makijaż permanentny ust"}
             imgAlt={"Makijaż permanentny ust"}
             children={detal}
