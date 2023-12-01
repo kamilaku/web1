@@ -4,11 +4,7 @@ import { Link } from "react-router-dom";
 const ButtonMailTo = ({ mailto, label }) => {
     return (
         <Link
-            to='#'
-            onClick={(e) => {
-                window.location.href = mailto;
-                e.preventDefault();
-            }}
+            href={`mailto:${mailto}`}
             className="mb-3 mb-md-0 text-body-secondary text-decoration-none"
         >
             {label}
@@ -21,11 +17,11 @@ const Footer = () => {
         <footer className="row py-4">
             <hr className="featurette-divider my-5"></hr>
             <div className="col d-flex align-items-center justify-content-center">
-                <ButtonMailTo label="@Klamka 2023" mailto="mailto:kamila.kulczyk@gmail.com" />
+                <ButtonMailTo label="klamka.zapadla88@gmail.com" mailto="klamka.zapadla88@gmail.com" />
             </div>
 
             <div className="logo col">
-                <Link to="/" className="px-2 d-flex justify-content-center link-secondary"><img src="/images/LogoMale.png" alt="logo" title="logo" width='70' /></Link>
+                <Link to="/" className="px-2 d-flex justify-content-center link-secondary"><img src="/images/LogoFirmy.png" alt="logo" title="logo" width='80' /></Link>
             </div>
 
             <div className='d-flex justify-content-center col align-items-center'>
