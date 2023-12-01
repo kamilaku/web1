@@ -6,7 +6,7 @@ const Header = () => {
     return (<>
         <header className="row py-2">
             <div className="logo col-xs-12">
-                <Link to="/" className="d-flex justify-content-center px-2" ><img src="/images/Deja_znak_wodny_zloty.png" alt="logo" title="logo" width='70%'/></Link>
+                <Link to="/" className="d-flex justify-content-center px-2" ><img src="/images/LogoFirmy.png" alt="logo" title="logo" width='50%'/></Link>
             </div>
 
             <div className="col-xs-12 d-flex flex-wrap align-items-center justify-content-center">

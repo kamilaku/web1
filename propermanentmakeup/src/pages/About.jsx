@@ -4,56 +4,56 @@ import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
 const detal = () => {
     return (<>
-        <p className="lead">Nagrodzona dyplomem MASTER CLASSName, trener makijażu permanentnego. Właścicielka centrum makijaż permanentnego Akademia Piękna M.Deja w Jeleniej Górze. Założycielka akcji charytatywnej "OD SERCA" w której z darmowych zabiegów makijażu permanentnego AREOLI mogą skorzystać kobiety dotknięte nowotworem piersi. Artystyczna dusza, malarka obrazów ściennych, komiksów, kochająca sztukę w każdej postaci.</p>
-        <h5 className="text-body-secondary">"Zadzwoń, napisz, zapytaj - chętnie odpowiem na wszystkie pytania, makijaż permanentny nie ma przede mną tajemnic."</h5>
+        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h5 className="text-body-secondary">"Zadzwoń, napisz, zapytaj - chętnie odpowiem na wszystkie pytania"</h5>
     </>);
 };
 
 const images = [
     {
-        src: "./images/myWork/mojapraca1.jpeg",
-        alt: "Moja praca - usta permanentne",
-        title: "Moja praca - usta permanentne",
+        src: "./images/myWork/pic1.jpeg",
+        alt: "pic1",
+        title: "pic1",
     },
     {
-        src: "./images/myWork/mojapraca2.jpeg",
-        alt: "Moja praca - szkolenia",
-        title: "Moja praca - szkolenia",
+        src: "./images/myWork/pic2.jpeg",
+        alt: "pic2",
+        title: "pic2",
     },
     {
-        src: "./images/myWork/mojapraca3.jpeg",
-        alt: "Moja praca - brwi permanentne",
-        title: "Moja praca - brwi permanentne",
+        src: "./images/myWork/pic3.jpeg",
+        alt: "pic3",
+        title: "pic3",
     },
     {
-        src: "./images/myWork/mojapraca4.jpeg",
-        alt: "Moja praca - certyfikat",
-        title: "Moja praca - certyfikat",
+        src: "./images/myWork/pic4.jpeg",
+        alt: "pic4",
+        title: "pic4",
     },
     {
-        src: "./images/myWork/mojapraca5.jpeg",
-        alt: "Moja praca - brwi permanentne",
-        title: "Moja praca - brwi permanentne",
+        src: "./images/myWork/pic5.jpeg",
+        alt: "pic5",
+        title: "pic5",
     },
     {
-        src: "./images/myWork/mojapraca6.jpeg",
-        alt: "Moja praca - certyfikat",
-        title: "Moja praca - certyfikat",
+        src: "./images/myWork/pic6.jpeg",
+        alt: "pic6",
+        title: "pic6",
     },
     {
-        src: "./images/myWork/mojapraca7.jpeg",
-        alt: "Moja praca - Ambasador Serca",
-        title: "Moja praca - Ambasador Serca",
+        src: "./images/myWork/pic7.jpeg",
+        alt: "pic7",
+        title: "pic7",
     },
     {
-        src: "./images/myWork/mojapraca8.jpeg",
-        alt: "Moja praca - brwi permanentne",
-        title: "Moja praca - brwi permanentne",
+        src: "./images/myWork/pic8.jpeg",
+        alt: "pic8",
+        title: "pic8",
     },
     {
-        src: "./images/myWork/mojapraca9.jpeg",
-        alt: "Moja praca - podziękowanie",
-        title: "Moja praca - podziękowanie",
+        src: "./images/myWork/pic9.jpeg",
+        alt: "pic9",
+        title: "pic9",
     },
 ];
 
@@ -63,13 +63,13 @@ const About = () => {
             <div className="row featurette">
                 <Box 
                     imgOnLeft={false} 
-                    h2={"Magdalena Deja"} 
-                    h3={"Linergistka z wieloletnim doświadczeniem"}
+                    h2={"Imię i nazwisko"} 
+                    h3={"Lorem ipsum"}
                     p={""}
-                    imgSrc={"./images/aboutMe.jpeg"}
+                    imgSrc={"./images/pic10.jpeg"}
                     imgClass={"img-double"}
-                    imgTitle={"Magdalena Deja"}
-                    imgAlt={"Magdalena Deja"}
+                    imgTitle={"pic10"}
+                    imgAlt={"pic10"}
                     children={detal}
                 />
 

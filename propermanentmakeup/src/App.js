@@ -14,6 +14,7 @@ import Eyelids from './pages/services/Eyelids';
 import MedicalPigmentation from './pages/services/MedicalPigmentation';
 import Cover from './pages/services/Cover';
 import Removal from './pages/services/Removal';
+// import Courses from './pages/services/Courses';
 
 
 const App = () => {
@@ -32,9 +33,10 @@ const App = () => {
             <Route path="services/cover" element={<Cover/>} />
             <Route path="services/removal" element={<Removal/>} />
 
-          <Route path="references" element={<References/>} />
+          {/* <Route path="references" element={<References/>} /> */}
           <Route path="contact" element={<Contact/>} />
           <Route path="portfolio" element={<Portfolio/>} />
+          {/* <Route path="courses" element={<Courses/>} /> */}
           <Route path="*" element={<NoPage/>} />
         </Route>
       </Routes>

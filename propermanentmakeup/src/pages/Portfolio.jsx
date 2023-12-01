@@ -3,16 +3,17 @@ import ImageGallery from "react-image-gallery";
 
 const Portfolio = () => {
     const pictures = [
-        { original: "/images/portfolio/portfolio1.jpeg", thumbnail: "/images/portfolio/portfolio1.jpeg", originalAlt: "Brwi - przed i po", originalTitle: "Brwi - przed i po" },
-        { original: "/images/portfolio/portfolio2.jpeg", thumbnail: "/images/portfolio/portfolio2.jpeg", originalAlt: "Usta - przed i po", originalTitle: "Usta - przed i po" },
-        { original: "./images/portfolio/portfolio3.jpeg", thumbnail: "./images/portfolio/portfolio3.jpeg", originalAlt: "W trakcie pracy", originalTitle: "W trakcie pracy" },
-        { original: "./images/portfolio/portfolio4.jpeg", thumbnail: "./images/portfolio/portfolio4.jpeg", originalAlt: "Brwi - przed i po", originalTitle: "Brwi - przed i po" },
-        { original: "./images/portfolio/portfolio5.jpeg", thumbnail: "./images/portfolio/portfolio5.jpeg", originalAlt: "Usta - przed i po", originalTitle: "Usta - przed i po" },
-        { original: "./images/portfolio/portfolio6.jpeg", thumbnail: "./images/portfolio/portfolio6.jpeg", originalAlt: "Usta permanentne - przed i po", originalTitle: "Usta permanentne - przed i po" },
-        { original: "./images/portfolio/portfolio7.jpeg", thumbnail: "./images/portfolio/portfolio7.jpeg", originalAlt: "Brwi", originalTitle: "Brwi" },
-        { original: "./images/portfolio/portfolio8.jpeg", thumbnail: "./images/portfolio/portfolio8.jpeg", originalAlt: "Brwi permanentne - przed i po", originalTitle: "Brwi permanentne - przed i po" },
-        { original: "./images/portfolio/portfolio9.jpeg", thumbnail: "./images/portfolio/portfolio9.jpeg", originalAlt: "Usuwanie makijau permanentnego", originalTitle: "Usuwanie makijau permanentnego" },
-        { original: "./images/portfolio/portfolio11.jpeg", thumbnail: "./images/portfolio/portfolio11.jpeg", originalAlt: "Brwi permanentne", originalTitle: "Brwi permanentne" },
+        { original: "/images/portfolio/pic6.jpeg", thumbnail: "/images/portfolio/pic6.jpeg", originalAlt: "pic6", originalTitle: "pic6" },
+        { original: "/images/portfolio/pic7.jpeg", thumbnail: "/images/portfolio/pic7.jpeg", originalAlt: "pic", originalTitle: "pic" },
+        { original: "./images/portfolio/pic8.jpeg", thumbnail: "./images/portfolio/pic8.jpeg", originalAlt: "pic", originalTitle: "pic" },
+        { original: "./images/portfolio/pic8.jpeg", thumbnail: "./images/portfolio/pic9.jpeg", originalAlt: "pic", originalTitle: "pic" },
+        { original: "./images/portfolio/pic10.jpeg", thumbnail: "./images/portfolio/pic10.jpeg", originalAlt: "pic", originalTitle: "pic" },
+        { original: "/images/portfolio/pic6.jpeg", thumbnail: "/images/portfolio/pic6.jpeg", originalAlt: "pic6", originalTitle: "pic6" },
+        { original: "/images/portfolio/pic7.jpeg", thumbnail: "/images/portfolio/pic7.jpeg", originalAlt: "pic", originalTitle: "pic" },
+        { original: "./images/portfolio/pic8.jpeg", thumbnail: "./images/portfolio/pic8.jpeg", originalAlt: "pic", originalTitle: "pic" },
+        { original: "./images/portfolio/pic8.jpeg", thumbnail: "./images/portfolio/pic9.jpeg", originalAlt: "pic", originalTitle: "pic" },
+        { original: "./images/portfolio/pic10.jpeg", thumbnail: "./images/portfolio/pic10.jpeg", originalAlt: "pic", originalTitle: "pic" },
+        
     ];
 
     return (

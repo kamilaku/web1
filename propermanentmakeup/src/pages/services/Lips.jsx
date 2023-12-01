@@ -3,17 +3,16 @@ import Box from "../../Components/Box";
 
 const detal = () => {
     return (<>
-        <p className="lead">
+        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <ul>To jest dla Ciebie jeżeli:
-                <li>Czerwień wargowa z wiekiem zanikła</li>
-                <li>Naturalna czerwień wargowa jest jasna i usta „gubią się” w twarzy</li>
-                <li>Masz blizny na ustach po opryszczkach</li>
-                <li>Masz rozszczep wargi</li>
-                <li>Masz asymetrię ust</li>
-                <li>Kontur ust jest niewyraźny</li>
-                <li>Lubisz podkreślać swoje usta</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
             </ul>
-        </p>
     </>);
 };
 
@@ -23,12 +22,11 @@ const Lips = () => {
         <Box 
             imgOnLeft={false} 
             h2={"Usta"} 
-            h3={"Symbol kobiecości"}
-            p={"Ustami wyrażamy słowa, uczucia, emocje. Pełne, odpowiednio podkreślone, postrzegane są jako piękne i zmysłowe.  Makijaż permanentny podkreśla naturalne piękno, a w efekcie możemy cieszyć się naturalnie wyglądającym makijażem permanentnym, który nigdy się nie rozmazuje."}
-            imgSrc={"/images/portfolio/portfolio2.jpeg"}
+            h3={"Lorem ipsum"}
+            imgSrc={"/images/portfolio/pic9.jpeg"}
             imgClass={"img-shadow"}
-            imgTitle={"Makijaż permanentny ust"}
-            imgAlt={"Makijaż permanentny ust"}
+            imgTitle={"pic9"}
+            imgAlt={"pic9"}
             children={detal}
         />
     </>)

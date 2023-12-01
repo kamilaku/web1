@@ -1,16 +1,31 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+const ButtonMailTo = ({ mailto, label }) => {
+    return (
+        <Link
+            to='#'
+            onClick={(e) => {
+                window.location.href = mailto;
+                e.preventDefault();
+            }}
+            className="mb-3 mb-md-0 text-body-secondary text-decoration-none"
+        >
+            {label}
+        </Link>
+    );
+};
+
 const Footer = () => {
     return (
         <footer className="row py-4">
             <hr className="featurette-divider my-5"></hr>
             <div className="col d-flex align-items-center justify-content-center">
-                <span className="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
+                <ButtonMailTo label="@Klamka 2023" mailto="mailto:kamila.kulczyk@gmail.com" />
             </div>
 
             <div className="logo col">
-                <Link to="/" className="px-2 d-flex justify-content-center link-secondary"><img src="/images/Deja_znak_wodny_zloty-logo.png" alt="logo" title="logo" width='50' /></Link>
+                <Link to="/" className="px-2 d-flex justify-content-center link-secondary"><img src="/images/LogoMale.png" alt="logo" title="logo" width='70' /></Link>
             </div>
 
             <div className='d-flex justify-content-center col'>
