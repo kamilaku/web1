@@ -1,0 +1,88 @@
+$gold1: #f6e6bb;
+$gold2: #d8b066;
+$gold3: #a27839;
+$otherText: #6c757d;
+$body-bg: #000;
+$headings-color: $gold3;
+$hr-color: $gold1;
+
+$input-color: $otherText;
+$form-label-color: $otherText;
+$form-text-color: $otherText;
+$input-placeholder-color: $otherText;
+
+$input-focus-border-color: $gold2;
+$input-focus-color: $gold1;
+$input-focus-box-shadow: $gold3;
+
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+  
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.text-body-secondary {
+  color: $gold2 !important;
+}
+
+p {
+  color: $gold1;
+}
+
+.nav-link {
+  color: $gold3;
+  border-radius: 10%;
+  transition: 0.5s;
+  margin: 5px;
+  padding: 5px;
+  &:focus {
+    color: $gold3;
+    background: $body-bg;
+  }
+  &:hover {
+    background: $gold3;
+    border-radius: 10%;
+    color: $body-bg;
+    margin: 5px;
+    padding: 5px;
+  }
+}
+
+.img-shadow {
+  box-shadow: 0px 0px 40px 7px $gold3;
+}
+
+.img-dotted {
+  outline: 3px dotted $gold3;
+  outline-offset: 8px;
+}
+
+.img-groove {
+  outline: 3px groove $gold3;
+  outline-offset: 8px;
+}
+
+.img-double {
+  outline: 3px double $gold3;
+  outline-offset: 8px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Old Standard TT", Sans-serif;
+}
+
+ul, li {
+  color: $gold1;
+}
+
+#phoneNum {
+  color: $gold2;
+  text-decoration: none;
+}
